@@ -1,0 +1,28 @@
+{
+  "appId": "in.wonderlandwaterpark.app",
+  "appName": "Wonderland Waterpark",
+  "webDir": "www",
+  "backgroundColor": "#0077b6",
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "allowNavigation": [
+      "wonderlandwaterpark.in",
+      "*.wonderlandwaterpark.in"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "backgroundColor": "#0077b6",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#0077b6"
+    }
+  }
+}

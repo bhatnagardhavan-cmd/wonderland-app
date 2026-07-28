@@ -1,0 +1,26 @@
+{
+  "name": "wonderland-waterpark-app",
+  "version": "1.0.0",
+  "description": "Wonderland Waterpark official mobile app (Android & iOS) - Capacitor native wrapper",
+  "private": true,
+  "scripts": {
+    "sync": "npx cap sync",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios",
+    "assets": "npx capacitor-assets generate"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/app": "^6.0.3",
+    "@capacitor/browser": "^6.0.6",
+    "@capacitor/cli": "^6.2.1",
+    "@capacitor/core": "^6.2.1",
+    "@capacitor/ios": "^6.2.1",
+    "@capacitor/network": "^6.0.4",
+    "@capacitor/splash-screen": "^6.0.4",
+    "@capacitor/status-bar": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}
